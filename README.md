@@ -9,7 +9,3 @@
 - Run tests. `npm run test`
 - Open storybook and view components. `npm run storybook`
 - View project design in `wireframe`.
-
-# In case of problems
-
-There is used localStorage in this project, so in case of problems, check possible conflicts in devtools.
