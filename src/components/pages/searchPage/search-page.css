@@ -1,0 +1,29 @@
+.search-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 300px;
+}
+
+.search-page header .search-header {
+  width: calc(100% - 2rem);
+  border-bottom: 2px solid black;
+}
+
+.search-page__paging {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.search-page__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+strong {
+  padding: 0 0.5rem;
+}

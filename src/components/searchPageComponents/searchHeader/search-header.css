@@ -1,0 +1,37 @@
+.search-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.search-header .search-bar {
+  flex-grow: 1;
+}
+
+.search-header .search-bar__input {
+  width: calc(100% - 1rem);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.icon:active {
+  scale: 0.9;
+}
+
+.search-heart-icon {
+  background-color: transparent;
+}
+
+.heart-icon-button {
+  background-color: transparent;
+  border: none;
+}

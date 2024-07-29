@@ -1,0 +1,15 @@
+.film-feature {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  min-width: 300px;
+}
+
+.film-feature__details {
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.film-feature__feature {
+  font-weight: bold;
+}

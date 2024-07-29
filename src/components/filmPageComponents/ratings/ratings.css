@@ -1,0 +1,7 @@
+.ratings__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  width: 100%;
+}

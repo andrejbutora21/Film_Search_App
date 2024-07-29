@@ -1,0 +1,18 @@
+.film-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 1.3rem 1rem;
+  gap: 1rem;
+  border-radius: 8px;
+  border: 2px solid black;
+  min-width: 110px;
+  width: calc(100% - 2rem);
+}
+
+.film-rating__name {
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

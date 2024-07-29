@@ -1,0 +1,8 @@
+@media (min-width: 415px) {
+  .layout {
+    margin: 0 15vw;
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+    overflow: auto;
+  }
+}
